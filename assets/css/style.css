@@ -1908,20 +1908,22 @@ body a {
           flex-direction: column;
   gap: 0.5em;
   width: 50%;
-  letter-spacing: 0.02em;
-  font-size: 1em;
-  font-weight: 300;
-  line-height: 1.75;
+  font-family: "Pretendard", sans-serif;
+  letter-spacing: -0.025em;
+  font-size: 1.1em;
+  font-weight: 400;
+  line-height: 1.5;
 }
 @media (max-width: 1023px) {
   .sc-javascript .project-list .project-item a .col-left {
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-weight: 400;
   }
 }
 @media (max-width: 767px) {
   .sc-javascript .project-list .project-item a .col-left {
-    font-size: 3.6em;
+    font-size: 4em;
+    font-weight: 400;
     gap: 0em;
   }
 }
@@ -1945,19 +1947,26 @@ body a {
 }
 .sc-javascript .project-list .project-item a .col-right p {
   font-family: "Pretendard", sans-serif;
-  font-size: 1.1em;
-  font-weight: 400;
+  font-size: 1em;
+  font-weight: 300;
   line-height: 1.7;
   width: 100%;
   -ms-flex-item-align: end;
   align-self: flex-end;
   letter-spacing: -0.025em;
 }
+@media (max-width: 1023px) {
+  .sc-javascript .project-list .project-item a .col-right p {
+    font-size: 1em;
+    font-weight: 300;
+  }
+}
 @media (max-width: 767px) {
   .sc-javascript .project-list .project-item a .col-right p {
-    font-size: 3.6em;
+    font-size: 3em;
     line-height: 1.5;
     width: 100%;
+    font-weight: 300;
     text-align: initial;
   }
 }
